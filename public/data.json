@@ -2,14 +2,14 @@
     {
       "id": "625be453eb9dbc48f182c4e6",
       "img": "./Images/service-1.jpg",
-      "price": 622,
+      "price": 322,
       "service_name": "1-hour Private Coaching",
       "description": "You will have a 1:1 one-hour Zoom meeting with me where I review your photos and give you an in-depth portfolio review and mentorship, with demos and tutorials. You can ask me any questions."
     },
     {
       "id": "625be4532c59d762be1ebfa5",
       "img": "./Images/service-2.jpg",
-      "price": 368,
+      "price": 668,
       "service_name": "6-Month Group Coaching",
       "description": "My most in-depth program where you will be coached by me for 6-months through weekly group coaching. If you want to transform your photos and achieve your dream in photography, this 6-month coaching program is for you. If you want to learn more about this program, you can check out this one-hour free training."
     },
@@ -17,9 +17,9 @@
     {
       "id": "625be453de19ce7fb772099b",
       "img": "./Images/service-3.png",
-      "price": 201,
+      "price": 203,
       "service_name": "Post-Processing Workflow",
-      "description": "If you want to learn the most powerful post-processing workflow that transform RAW file into super-sharp noise-less images while being natural and contest-compliant, this Dynamic Tension Stacking program is for you. Once you mastered the process, the whole workflow takes less than 5 minutes to complete, and you will see your photos getting the recognition they deserved."
+      "description": "If you want to learn the most powerful post-processing workflow that transform RAW file into super-sharp noise-less images while being natural and contest-compliant, this Dynamic Tension Stacking program is for you."
     }
     
   ]

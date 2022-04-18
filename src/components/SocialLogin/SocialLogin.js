@@ -28,7 +28,7 @@ if(loading){
         <div>
             <div className='d-flex justify-content-center align-items-center'>
                 <div style={{height: '1px'}} className='bg-primary w-25'></div>
-                <p className='mt-2 px-2'>or</p>
+                <p className='mt-3 px-2'>Or</p>
                 <div style={{height: '1px'}} className='bg-primary w-25'></div>
             </div>
             {errorElement}
