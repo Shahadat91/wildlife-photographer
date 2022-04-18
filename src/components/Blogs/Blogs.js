@@ -1,8 +1,9 @@
 import React from "react";
+import './Blogs.css';
 
 const Blogs = () => {
   return (
-    <div style={{ marginTop: "60px" }}>
+    <div className="blogs">
       <div>
         <h3>Q-1: Difference between `authorization` and `authentication.</h3>
         <p>
