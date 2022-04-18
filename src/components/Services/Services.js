@@ -12,7 +12,7 @@ const Services = () => {
     },[])
     return (
         <div id='services'>
-            <h2 className='text-info text-center m-5'>This is Services Section:{services.length}</h2>
+            <h2 className='text-info text-center m-5'> Services </h2>
 
             <div className="services-container">
             {

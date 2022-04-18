@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from "../../firebase.init";
+import SocialLogin from "../SocialLogin/SocialLogin";
+import Loading from "../Loading/Loading";
 
 const SignUp = () => {
   const nameRef = useRef("");
@@ -14,28 +16,36 @@ const SignUp = () => {
     user,
     loading,
     error,
-  ] = useCreateUserWithEmailAndPassword(auth);
+  ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
+  const [updateProfile, updating, upateError] = useUpdateProfile(auth);
 
-  const handleSignUp = (event) => {
+  const handleSignUp = async (event) => {
     event.preventDefault();
     const name = nameRef.current.value
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
     //console.log(name,email, password);
-    createUserWithEmailAndPassword(email, password);
+    await createUserWithEmailAndPassword(email, password);
+    await updateProfile({ displayName: name});
+    console.log('Updated profile');
+    navigate('/home');
   };
 
   if(user){
-      navigate('/home');
+      console.log('user', user);
   }
 
-  const navigateSignIn = (event) => {
+  if(loading){
+    return <Loading></Loading>
+}
+
+  const navigateSignIn = () => {
     navigate("/signin");
     console.log("signin");
   };
   return (
-    <div style={{ marginTop: "100px" }}>
-      <form onSubmit={handleSignUp}>
+    <div style={{ marginTop: "60px" }}>
+      <form  className="form-body" onSubmit={handleSignUp}>
         <div className="login-form">
           <div className="title">Please Sign Up</div>
 
@@ -80,6 +90,7 @@ const SignUp = () => {
           </div>
         </div>
       </form>
+      <SocialLogin></SocialLogin>
     </div>
   );
 };
