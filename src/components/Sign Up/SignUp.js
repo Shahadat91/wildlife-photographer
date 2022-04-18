@@ -79,7 +79,7 @@ const SignUp = () => {
               required
             />
           </div>
-          <button className="button">Sign In</button>
+          <button className="button">Sign Up</button>
           <div className="link">
             <p>
               Already have an account? Please{" "}
