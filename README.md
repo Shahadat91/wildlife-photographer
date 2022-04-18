@@ -3,11 +3,17 @@
 ## [Live Site Link](https://wild-photographer-9a405.web.app/)
 
 #About This Site : 
-* This is Rolex watch review site.
-* This site use React Route & Link.
-* React Font Awesome Icon use here.
-* This site use Rechart for show line chart & bar chart.
+* This website is about a wild photographer.
+* It's contain a brief description about him.
+* Some services display here by him.
+* Anyone book this service.
+* Some blogs post here anyone can read it.
 
+# List of technologies used in your project
+ *React Router
+ *React Router hook
+ *React Bootstrap
+ *Google Firebase
 
 
 # Getting Started with Create React App
