@@ -9,11 +9,11 @@
 * Anyone book this service.
 * Some blogs post here anyone can read it.
 
-# List of technologies used in your project
- *React Router
- *React Router hook
- *React Bootstrap
- *Google Firebase
+#List of technologies used in this project:
+ * React Router
+ * React Router hook
+ * React Bootstrap
+ * Google Firebase
 
 
 # Getting Started with Create React App
