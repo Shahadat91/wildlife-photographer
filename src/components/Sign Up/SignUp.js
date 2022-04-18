@@ -51,7 +51,7 @@ const SignUp = () => {
 
           <div className="input-fields">
             <input
-              className="username"
+              className="user-name"
               ref={nameRef}
               type="text"
               name="name"
@@ -60,7 +60,7 @@ const SignUp = () => {
               required
             />
             <input
-              className="username"
+              className="user-email"
               ref={emailRef}
               type="email"
               name="email"

@@ -6,7 +6,7 @@ const ServiceDetail = () => {
     console.log(serviceId)
     return (
         <div style={{marginTop: "100px"}}>
-            <h2>welcome to detail: {serviceId}</h2>
+            <h2 className='text-center'>Thanks for choosing this service</h2>
             <div className="text-center">
                 <Link to="/checkout">
                 <button className='btn btn-primary'>Proceed Checkout</button>

@@ -12,7 +12,7 @@
     height: 500px;
     background-color: #ecf0f3;
     border-radius: 20px;
-    padding: 50px 35px 35px 35px;
+    padding: 40px 35px 35px 35px;
     box-shadow: 10px 10px 15px #cbced1,
                 -10px -10px 15px white;
 }
@@ -34,9 +34,9 @@
     outline: none;
     background: none;
     color: #555;
-    padding: 10px 10px 15px 20px;
+    padding: 10px 15px 15px 20px;
 }
-.username, .password{
+.user-name, .user-email, .password{
     margin-bottom: 25px;
     border-radius: 15px;
     box-shadow: inset 8px 8px 15px #a7aaa7,
