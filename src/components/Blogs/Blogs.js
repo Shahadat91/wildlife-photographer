@@ -29,10 +29,10 @@ const Blogs = () => {
         </p>
       </div>
       <div> 
-        <h2>
+        <h3>
           Q-3: What other services does `firebase` provide other than
           authentication?
-        </h2>
+        </h3>
         <p>Firebase Authentication  backend services provides করে, সহজে SDKs ব্যবহার করে কাজ করা যায়, এবং ready-made UI libraries আছে যা app এ users কে authenticate করে।  passwords, phone numbers, Google, Facebook, Twitter, সহ অনেকগুলো authentication support করে।</p>
       </div>
     </div>

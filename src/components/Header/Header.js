@@ -14,7 +14,7 @@ const Header = () => {
    navigate('/signin');
  }
   return (
-    <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" fixed="top">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
       <Container>
         <Navbar.Brand as={Link} to="/">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
