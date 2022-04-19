@@ -41,7 +41,7 @@ const SignIn = () => {
 
   let errorElement;
   if (error) {
-    errorElement = <p className="text-danger">Error: {error.message}</p>;
+    errorElement = <p className="text-danger text-center">Error: {error.message}</p>;
   }
 
   const navigateSignUp = (event) => {
@@ -53,7 +53,7 @@ const SignIn = () => {
     const email = emailRef.current.value;
     if (email) {
       await sendPasswordResetEmail(email);
-      toast("Sent email");
+      toast("Sent email for reset password");
     } else {
       toast("please input your email to reset password");
     }
