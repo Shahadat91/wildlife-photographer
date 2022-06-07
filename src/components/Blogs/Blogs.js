@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <div className="blogs">
       <div>
-        <h4>Q-1: Difference between authorization and authentication.</h4>
+        <h4>Q-1: Difference between authorization and authentication and many more.</h4>
         <p>
           System এ access করার jonno Authentication process এ, user identity
           checked করা হয়। Authorization process এ, user এর resources checke
